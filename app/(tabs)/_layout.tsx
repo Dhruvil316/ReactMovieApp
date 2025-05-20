@@ -52,9 +52,14 @@ const _layout = () => {
           height : 52 , 
           position : 'absolute' , 
           overflow : 'hidden' , 
-          borderWidth : 1 ,
+          borderWidth : 0 ,
+          borderColor : '#0f0D23'
         },
-      }}
+      }
+    
+
+      
+    }
     >
       <Tabs.Screen
         name="index"
